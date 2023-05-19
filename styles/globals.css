@@ -1,0 +1,32 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-self: center;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #39ad58;
+    margin-bottom:0px;
+    padding: 40px;
+    margin-top: 40px;
+}

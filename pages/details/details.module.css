@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-bottom: 0px;
+}
+
+.background { 
+    width: 100%; 
+    background-color: #39ad58; 
+    height: 150px; 
+    top: 0px; 
+    left: 0px; 
+    z-index: -1;
+}
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.aboutHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 30px;
+    margin-left: 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.occupation {
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.location {
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+.contactHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact {
+    font-size: 17.5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: grey;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.bioHolder {
+    width: 100%;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: #a3a3a3;
+    border-radius: 20px;
+    box-sizing:border-box;
+    padding: 30px;
+}
+
+.bioHeading {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.bioDescription {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+}
+
+@media (max-width:700px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .background {
+        height: 120px; 
+    }
+
+    .aboutHolder {
+        flex-direction: column;
+    }
+
+    .location {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .contactHolder {
+        flex-direction: column;
+    }  
+}

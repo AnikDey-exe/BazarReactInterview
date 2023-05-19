@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerTitle {
+    font-size: 30px;
+    margin-left: 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+@media (max-width:600px) {
+    .header {
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .headerTitle {
+        margin-bottom: 10px;
+    }
+}

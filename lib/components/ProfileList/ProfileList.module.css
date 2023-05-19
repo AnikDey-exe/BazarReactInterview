@@ -1,0 +1,21 @@
+.pages {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    gap: 20px;
+}
+
+.pageButton {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid #39ad58;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media(max-width: 600px) {
+    .pages {
+        width: 90%;
+    }
+}
